@@ -79,5 +79,5 @@ echo -e "\\033[1;31m-> \\033[1;37mirc.swepipe.net            = 2001:6b0:78::20"
 echo
 echo
 printf "\\033[1;37mStarting Console. Please wait\\033[1;37m";sleep 0.21;printf ".";sleep 0.21;printf ".";sleep 0.21;printf "."
-echo -e "\\033[1;31m DONE\\033[0;37m!."
+echo -e "${GREEN}DONE${NC}!."
 echo
