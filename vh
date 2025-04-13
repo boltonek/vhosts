@@ -28,7 +28,7 @@ ipv6_addresses=$(ip -6 addr show | grep 'inet6 ' | awk '{print $2}' | cut -d/ -f
 get_reverse_dns() {
     rev_dns=$(host -W 1 "$1" | awk '/pointer/ {print $5}')
     if [ -z "$rev_dns" ]; then
-        echo -e "${YELLOW}brak${NC}"
+        echo -e "${YELLOW}bad reverse DNS record${NC}"
     else
         echo -e "${CYAN}$rev_dns${NC}"
     fi
