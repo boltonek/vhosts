@@ -33,7 +33,7 @@ get_reverse_dns() {
         echo -e "${CYAN}$rev_dns${NC}"
     fi
 }
-# Wy ^{wietl addresses IPv4
+# My addresses IPv4
 echo
 echo -e "\\033[1;33mStats: \\033[1;37m"
 echo -e "My connections ipv4: ${GREEN}$ILOSC_IPv4${NC}"
@@ -59,7 +59,7 @@ echo -e "\\033[1;31m-> \\033[1;37mirc.swepipe.net          = 188.240.145.20"
 echo -e "\\033[1;31m-> \\033[1;37mirc.us.ircnet.net        = 170.178.184.37"
 echo
 echo -e "\n\n"
-# Wy ^{wietl addresses IPv6
+# My addresses IPv6
 echo -e "addresses IPv6:"
 echo
 for ip in $ipv6_addresses; do
