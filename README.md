@@ -12,4 +12,4 @@ enjoy it
 
 if that doesn't work, use apt-get on Linux to install the necessary packages
 
-* apt-get -y install dnsutils bind9
+* apt-get -y install dnsutils
